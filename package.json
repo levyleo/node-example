@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/demohi/node-example.git"
+    "url": "git+https://github.com/levyleo/node-example.git"
   },
-  "author": "mdemo",
+  "author": "levyleo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/demohi/node-example/issues"
+    "url": "https://github.com/levyleo/node-example/issues"
   },
-  "homepage": "https://github.com/demohi/node-example#readme",
+  "homepage": "https://github.com/levyleo/node-example#readme",
   "dependencies": {
     "koa": "^1.1.2"
   }

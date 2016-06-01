@@ -7,10 +7,7 @@ server.use(restify.bodyParser());
 function user_log(req, res, next) {
 	res.charSet('utf-8');
 	res.contentType = 'json';
-	res.send({
-		's': '1',
-		'us': userEntity
-	});
+	res.send(200,'Hello world!');
 }
 
 server.get('/log', user_log);

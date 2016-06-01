@@ -1,13 +1,11 @@
 {
-	"apps": [{
   "name"             : "node-example",
-  "script"           : "/home/simple/work/node-example/current/index.js",
-  "error_file"        : "/logs/error.log",
-  "out_file"        : "/logs/eout.log",
+  "script"           : "../index.js",
+  "error_file"        : "../pm2/node-example/error.log",
+  "out_file"        : "../pm2/node-example/eout.log",
   "log_date_format"  : "YYYY-MM-DD HH:mm Z",
   "ignore_watch"      : ["node_modules"],
   "env": {
     "NODE_ENV": "development"
   }
-}]
 }

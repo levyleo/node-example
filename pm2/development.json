@@ -1,8 +1,8 @@
 {
   "name"             : "node-example",
-  "script"           : "/home/simple/work/node-example/current/index.js",
-  "error_file"        : "/home/simple/work/logs/pm2/node-example/error.log",
-  "out_file"        : "/home/simple/work/logs/pm2/node-example/eout.log",
+  "script"           : "~/work/node-example/current/index.js",
+  "error_file"        : "~/work/logs/pm2/node-example/error.log",
+  "out_file"        : "~/work/logs/pm2/node-example/eout.log",
   "log_date_format"  : "YYYY-MM-DD HH:mm Z",
   "ignore_watch"      : ["node_modules"],
   "env": {

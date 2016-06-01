@@ -1,5 +1,8 @@
 var restify = require('restify');
-
+var server = restify.createServer();
+server.use(restify.acceptParser(server.acceptable));
+server.use(restify.queryParser());
+server.use(restify.bodyParser());
 
 function user_log(req, res, next) {
 	res.charSet('utf-8');

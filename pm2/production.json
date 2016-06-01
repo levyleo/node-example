@@ -1,8 +1,8 @@
 {
   "name"             : "node-example",
   "script"           : "/home/simple/node-example/current/index.js",
-  "error_file"        : "/home/simple/pm2/node-example/error.log",
-  "out_file"        : "/home/simple/pm2/node-example/out.log",
+  "error_file"        : "/home/simple/node-example/pm2/error.log",
+  "out_file"        : "/home/simple/node-example/pm2/out.log",
   "log_date_format"  : "YYYY-MM-DD HH:mm Z",
   "instances"        : 0,
   "node_args"   : "--harmony",
